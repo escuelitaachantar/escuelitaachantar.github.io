@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A CHANTAR</title>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script src="./student.js" defer></script>
 </head>
 <body>
     A CHANTAR
@@ -21,6 +20,15 @@
                 return {
                     message: this.STUDENTS
                 }
+            },
+            mounted(){
+                fetch('/students.json')
+                .then(response => response.json())
+                .then(data =>{
+                    this.message = data
+                    console.log(data)
+                }
+                );
             }
         }).mount('#app')
     </script>
