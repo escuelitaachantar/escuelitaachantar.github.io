@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A CHANTAR</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./student.js" defer></script>
 </head>
 <body>
     A CHANTAR
+    <div id="app">{{ message }}</div>
+    
+    <script>
+        const {
+            createApp
+        } = Vue
+    
+        createApp({
+            data() {
+                return {
+                    message: 'Hello Vue!'
+                }
+            }
+        }).mount('#app')
+    </script>
 </body>
 </html>
