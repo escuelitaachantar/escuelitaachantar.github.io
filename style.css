@@ -17,6 +17,11 @@ body {
 	font-family: 'Helvetica', 'Arial', sans-serif;
 	font-size: 9pt;
 }
+i{
+	color: #ffffff;
+	font-size: 30px !important;
+	padding: 0 10px;
+}
 
 #navbar {
 	display: flex;
@@ -38,14 +43,29 @@ h2 {
 }
 h1,h2 {color: #ffffff;}
 
+#search-bar{
+	margin: 15px 0;
+	display: flex;
+	align-items: center;
+}
+#search-input{
+	color: #ffffff;
+	padding: 10px;
+	flex-grow: 1;
+	font-size: 20px;
+	background: none;
+	border: 1px solid #ffffff;
+	border-radius: 12px;
+}
+
 #false-table {
-	margin-top: 30px;
+	margin-top: 60px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 #loader {
-	width: 100px;
+	max-width: 80px;
 	animation: spin 2s infinite;
 }
 @keyframes spin {
@@ -54,6 +74,7 @@ h1,h2 {color: #ffffff;}
 }
 
 table{
+	margin: auto;
 	font-family: arial, sans-serif;
 	border-collapse: collapse;
 	width: 100%;
