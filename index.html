@@ -15,11 +15,11 @@
         const {
             createApp
         } = Vue
-    
+        let vm = this
         createApp({
             data() {
                 return {
-                    message: 'Hello Vue!'
+                    message: this.STUDENTS
                 }
             }
         }).mount('#app')
