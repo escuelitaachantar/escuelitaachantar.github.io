@@ -20,7 +20,8 @@
 		<h2>Puntos 1er Torneo 2023</h2>
 		<div style="margin: auto;max-width: 600px;">
 			<div id="search-bar">
-				<input type="text" v-model="searchTerm" @keyup="search()" name="buscar" id="search-input" placeholder="Buscar...">
+				<input type="text" v-model="searchTerm" @keyup="search()" @change="search()" name="buscar" id="search-input"
+					placeholder="Buscar...">
 				<i v-if="!searchTerm" class="large material-icons" @click="search()">search</i>
 				<i v-else class="large material-icons" @click="searchTerm = ''">cancel</i>
 			</div>
