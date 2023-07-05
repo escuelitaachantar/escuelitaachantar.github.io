@@ -96,31 +96,6 @@
 					.then(response => response.json())
 					.then(data => {
 						this.students = data.students
-						/* this.students.forEach(stu=>{
-							let first = ""
-							let second = ""
-							if (stu.genre == "A") {
-								second = "adultos"
-							}
-							if (stu.genre == "M") {
-								second = "chicos"
-							}
-							if (stu.genre == "F") {
-								second = "chicas"
-							}
-							if (stu.level == 1) {
-								first = "iniciales"
-							}
-							if (stu.level == 2) {
-								first = `intermedi${stu.genre == "A" || stu.genre == "M" ? 'os' : 'as'}`
-							}
-							if (stu.level == 3) {
-								first = `avanzad${stu.genre == "A" || stu.genre == "M" ? 'os' : 'as'}`
-							}
-							let cat = `${second} ${first}`
-							stu.level = cat
-						}) */
-						console.log('this.students',this.students);
 					});
 
 			}
