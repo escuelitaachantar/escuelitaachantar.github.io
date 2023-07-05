@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>A CHANTAR</title>
-	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+	<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -35,8 +35,8 @@
 				</tr>
 				<tr v-for="student in toShow">
 					<td>{{student.name}}</td>
-					<td>{{student.category}}</td>
-					<td>{{student.points}}</td>
+					<td style="text-align: center;">{{student.category}}</td>
+					<td style="text-align: center;">{{student.points}}</td>
 				</tr>
 				<tr>
 			</table>
