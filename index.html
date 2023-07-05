@@ -21,7 +21,7 @@
 		<div style="margin: auto;max-width: 600px;">
 			<div id="search-bar">
 				<input type="text" v-model="searchTerm" @keyup="search()" name="buscar" id="search-input" placeholder="Buscar...">
-				<i v-if="!searchTerm" class="large material-icons">search</i>
+				<i v-if="!searchTerm" class="large material-icons" @click="search()">search</i>
 				<i v-else class="large material-icons" @click="searchTerm = ''">cancel</i>
 			</div>
 			<div v-if="loading" id="false-table">
@@ -30,13 +30,13 @@
 			<table v-else>
 				<tr>
 					<th>Nombre</th>
-					<th colspan="3">Puntos</th>
+					<th>Categoria</th>
+					<th>Puntos</th>
 				</tr>
 				<tr v-for="student in toShow">
 					<td>{{student.name}}</td>
-					<td>{{student.points[0]}}</td>
-					<td>{{student.points[1]}}</td>
-					<td>{{student.points[2]}}</td>
+					<td>{{student.category}}</td>
+					<td>{{student.points}}</td>
 				</tr>
 				<tr>
 			</table>
@@ -96,7 +96,33 @@
 					.then(response => response.json())
 					.then(data => {
 						this.students = data.students
+						/* this.students.forEach(stu=>{
+							let first = ""
+							let second = ""
+							if (stu.genre == "A") {
+								second = "adultos"
+							}
+							if (stu.genre == "M") {
+								second = "chicos"
+							}
+							if (stu.genre == "F") {
+								second = "chicas"
+							}
+							if (stu.level == 1) {
+								first = "iniciales"
+							}
+							if (stu.level == 2) {
+								first = `intermedi${stu.genre == "A" || stu.genre == "M" ? 'os' : 'as'}`
+							}
+							if (stu.level == 3) {
+								first = `avanzad${stu.genre == "A" || stu.genre == "M" ? 'os' : 'as'}`
+							}
+							let cat = `${second} ${first}`
+							stu.level = cat
+						}) */
+						console.log('this.students',this.students);
 					});
+
 			}
 		}).mount('#app')
 	</script>

@@ -1,141 +1,684 @@
 {
-    "students":[
-       {"name":"	alejandro acosta	","points":[	500	,	500	,	650	],"genre":"	A	","level":	1	},
-{"name":"	camila sosa	","points":[	700	,	700	,	700	],"genre":"	A	","level":	1	},
-{"name":"	eric kersten	","points":[	750	,	800	,	750	],"genre":"	A	","level":	1	},
-{"name":"	pablo joaquim	","points":[	600	,	600	,	650	],"genre":"	A	","level":	1	},
-{"name":"	andres luca	","points":[	750	,	800	,	725	],"genre":"	A	","level":	2	},
-{"name":"	celeste zabala	","points":[	750	,	850	,	775	],"genre":"	A	","level":	2	},
-{"name":"	diego liva	","points":[	650	,	700	,	625	],"genre":"	A	","level":	2	},
-{"name":"	diego montrel	","points":[	675	,	770	,	650	],"genre":"	A	","level":	2	},
-{"name":"	esteban sauco	","points":[	700	,	750	,	650	],"genre":"	A	","level":	2	},
-{"name":"	gonzalo grillo	","points":[	725	,	800	,	775	],"genre":"	A	","level":	2	},
-{"name":"	juan ignacio bairo	","points":[	800	,	800	,	725	],"genre":"	A	","level":	2	},
-{"name":"	leo gimenez	","points":[	550	,	750	,	650	],"genre":"	A	","level":	2	},
-{"name":"	lucia olivera	","points":[	825	,	830	,	750	],"genre":"	A	","level":	2	},
-{"name":"	macarena melilli	","points":[	775	,	790	,	650	],"genre":"	A	","level":	2	},
-{"name":"	pablo quintero	","points":[	725	,	770	,	700	],"genre":"	A	","level":	2	},
-{"name":"	paula luca	","points":[	800	,	790	,	725	],"genre":"	A	","level":	2	},
-{"name":"	raul ruiz	","points":[	850	,	900	,	800	],"genre":"	A	","level":	2	},
-{"name":"	viviana szpigiel	","points":[	800	,	870	,	700	],"genre":"	A	","level":	2	},
-{"name":"	ariel rodriguez	","points":[	600	,	700	,	700	],"genre":"	A	","level":	3	},
-{"name":"	cristian lopez	","points":[	825	,	900	,	900	],"genre":"	A	","level":	3	},
-{"name":"	eduardo blanco	","points":[	675	,	800	,	700	],"genre":"	A	","level":	3	},
-{"name":"	eduardo cepeda	","points":[	700	,	750	,	800	],"genre":"	A	","level":	3	},
-{"name":"	joaquin mourelle	","points":[	825	,	850	,	900	],"genre":"	A	","level":	3	},
-{"name":"	juan ludueña	","points":[	800	,	830	,	850	],"genre":"	A	","level":	3	},
-{"name":"	juancho rueda	","points":[	850	,	840	,	850	],"genre":"	A	","level":	3	},
-{"name":"	martin iaria	","points":[	800	,	750	,	800	],"genre":"	A	","level":	3	},
-{"name":"	ainhoa delval	","points":[	675	,	550	,	640	],"genre":"	F	","level":	1	},
-{"name":"	ambar uchupi	","points":[	600	,	500	,	650	],"genre":"	F	","level":	1	},
-{"name":"	bianca ditono	","points":[	700	,	600	,	850	],"genre":"	F	","level":	2	},
-{"name":"	carola bogado	","points":[	775	,	800	,	900	],"genre":"	F	","level":	2	},
-{"name":"	catalina fernandez	","points":[	550	,	550	,	550	],"genre":"	F	","level":	2	},
-{"name":"	emilia medina	","points":[	650	,	600	,	650	],"genre":"	F	","level":	1	},
-{"name":"	emma llanes	","points":[	650	,	650	,	650	],"genre":"	F	","level":	1	},
-{"name":"	emma palacios	","points":[	750	,	700	,	690	],"genre":"	F	","level":	2	},
-{"name":"	jana paredes	","points":[	650	,	650	,	650	],"genre":"	F	","level":	1	},
-{"name":"	lara castro	","points":[	700	,	700	,	680	],"genre":"	F	","level":	1	},
-{"name":"	lola hernandez	","points":[	650	,	600	,	500	],"genre":"	F	","level":	1	},
-{"name":"	lujan perez	","points":[	500	,	550	,	500	],"genre":"	F	","level":	1	},
-{"name":"	malena sanso	","points":[	500	,	500	,	530	],"genre":"	F	","level":	2	},
-{"name":"	maxi pires	","points":[	625	,	750	,	870	],"genre":"	F	","level":	1	},
-{"name":"	miranda leiva	","points":[	500	,	550	,	750	],"genre":"	F	","level":	1	},
-{"name":"	nina setaño	","points":[	675	,	650	,	830	],"genre":"	F	","level":	1	},
-{"name":"	noa setaño	","points":[	550	,	500	,	500	],"genre":"	F	","level":	1	},
-{"name":"	olivia echeverria	","points":[	725	,	700	,	850	],"genre":"	F	","level":	1	},
-{"name":"	rosario flores	","points":[	625	,	500	,	660	],"genre":"	F	","level":	1	},
-{"name":"	alexa fuentes	","points":[	700	,	700	,	625	],"genre":"	F	","level":	2	},
-{"name":"	almendra ventura	","points":[	700	,	700	,	650	],"genre":"	F	","level":	2	},
-{"name":"	aluhe lago	","points":[	750	,	760	,	700	],"genre":"	F	","level":	2	},
-{"name":"	ana paula correa	","points":[	750	,	780	,	700	],"genre":"	F	","level":	2	},
-{"name":"	angela cassaccio	","points":[	825	,	820	,	825	],"genre":"	F	","level":	2	},
-{"name":"	ayelen salazar	","points":[	800	,	770	,	750	],"genre":"	F	","level":	2	},
-{"name":"	catalina casini	","points":[	750	,	700	,	750	],"genre":"	F	","level":	2	},
-{"name":"	charo lopez	","points":[	750	,	680	,	800	],"genre":"	F	","level":	2	},
-{"name":"	ema corbellini	","points":[	725	,	750	,	650	],"genre":"	F	","level":	2	},
-{"name":"	emilia aliberti	","points":[	700	,	650	,	700	],"genre":"	F	","level":	2	},
-{"name":"	fiore ghioni	","points":[	750	,	680	,	700	],"genre":"	F	","level":	2	},
-{"name":"	jazmin florido	","points":[	825	,	810	,	800	],"genre":"	F	","level":	2	},
-{"name":"	julieta soprano	","points":[	675	,	590	,	625	],"genre":"	F	","level":	2	},
-{"name":"	kiara latorre	","points":[	875	,	830	,	900	],"genre":"	F	","level":	2	},
-{"name":"	liz fratianni	","points":[	750	,	780	,	725	],"genre":"	F	","level":	2	},
-{"name":"	lourdes gonda	","points":[	750	,	680	,	650	],"genre":"	F	","level":	2	},
-{"name":"	lucia del rincon	","points":[	750	,	750	,	700	],"genre":"	F	","level":	2	},
-{"name":"	luciana maza	","points":[	650	,	620	,	625	],"genre":"	F	","level":	2	},
-{"name":"	lupe aristegui	","points":[	700	,	700	,	750	],"genre":"	F	","level":	2	},
-{"name":"	martina obaid	","points":[	750	,	650	,	800	],"genre":"	F	","level":	2	},
-{"name":"	matilda ribas	","points":[	700	,	700	,	650	],"genre":"	F	","level":	2	},
-{"name":"	mora garcia vedral	","points":[	775	,	780	,	650	],"genre":"	F	","level":	2	},
-{"name":"	noa hernando	","points":[	775	,	780	,	700	],"genre":"	F	","level":	2	},
-{"name":"	pina gosiker	","points":[	725	,	700	,	700	],"genre":"	F	","level":	1	},
-{"name":"	sofia obaid	","points":[	750	,	750	,	750	],"genre":"	F	","level":	2	},
-{"name":"	sofia orsini	","points":[	775	,	750	,	700	],"genre":"	F	","level":	2	},
-{"name":"	uma paredes	","points":[	775	,	620	,	650	],"genre":"	F	","level":	2	},
-{"name":"	umaia ibave	","points":[	690	,	850	,	875	],"genre":"	F	","level":	3	},
-{"name":"	victoria galdeano	","points":[	725	,	730	,	775	],"genre":"	F	","level":	2	},
-{"name":"	zoe brandam	","points":[	700	,	600	,	650	],"genre":"	F	","level":	2	},
-{"name":"	abril leguizamon	","points":[	810	,	775	,	850	],"genre":"	F	","level":	3	},
-{"name":"	alma casalini	","points":[	700	,	700	,	700	],"genre":"	F	","level":	3	},
-{"name":"	bianca bianuchi	","points":[	810	,	725	,	825	],"genre":"	F	","level":	3	},
-{"name":"	catalina sosa	","points":[	700	,	700	,	825	],"genre":"	F	","level":	3	},
-{"name":"	emilia blanco	","points":[	760	,	775	,	775	],"genre":"	F	","level":	3	},
-{"name":"	lola arizio	","points":[	700	,	725	,	800	],"genre":"	F	","level":	3	},
-{"name":"	luana galvan	","points":[	830	,	800	,	825	],"genre":"	F	","level":	3	},
-{"name":"	luna prieto	","points":[	750	,	725	,	750	],"genre":"	F	","level":	3	},
-{"name":"	mara gonzalez	","points":[	750	,	700	,	750	],"genre":"	F	","level":	3	},
-{"name":"	nahiara san martin	","points":[	850	,	825	,	850	],"genre":"	F	","level":	3	},
-{"name":"	rocio rodriguez	","points":[	780	,	775	,	800	],"genre":"	F	","level":	3	},
-{"name":"	sol bertuna	","points":[	760	,	750	,	825	],"genre":"	F	","level":	3	},
-{"name":"	baltazar engelen	","points":[	900	,	910	,	905	],"genre":"	M	","level":	2	},
-{"name":"	benicio ibarra	","points":[	800	,	860	,	830	],"genre":"	M	","level":	1	},
-{"name":"	bernardo escrofani	","points":[	875	,	890	,	883	],"genre":"	M	","level":	1	},
-{"name":"	bruno alvarez	","points":[	700	,	600	,	650	],"genre":"	M	","level":	1	},
-{"name":"	ciro costantini	","points":[	500	,	500	,	500	],"genre":"	M	","level":	1	},
-{"name":"	felipe villareal	","points":[	600	,	550	,	575	],"genre":"	M	","level":	1	},
-{"name":"	franco morana	","points":[	600	,	600	,	600	],"genre":"	M	","level":	1	},
-{"name":"	jeronimo fornasari	","points":[	700	,	600	,	650	],"genre":"	M	","level":	1	},
-{"name":"	luca cespedes	","points":[	700	,	700	,	700	],"genre":"	M	","level":	1	},
-{"name":"	manuel alvarez	","points":[	700	,	550	,	625	],"genre":"	M	","level":	1	},
-{"name":"	manuel cepeda	","points":[	700	,	550	,	625	],"genre":"	M	","level":	1	},
-{"name":"	simon colline	","points":[	875	,	880	,	878	],"genre":"	M	","level":	1	},
-{"name":"	simon engelen	","points":[	825	,	870	,	848	],"genre":"	M	","level":	2	},
-{"name":"	simon lopez	","points":[	600	,	630	,	615	],"genre":"	M	","level":	1	},
-{"name":"	benicio caminos	","points":[	700	,	750	,	725	],"genre":"	M	","level":	3	},
-{"name":"	ciro dicrose	","points":[	690	,	700	,	695	],"genre":"	M	","level":	2	},
-{"name":"	ciro florentin	","points":[	550	,	650	,	600	],"genre":"	M	","level":	2	},
-{"name":"	cristiano trimarco	","points":[	620	,	725	,	673	],"genre":"	M	","level":	2	},
-{"name":"	demian momdjian	","points":[	650	,	750	,	700	],"genre":"	M	","level":	2	},
-{"name":"	elian cassaccio	","points":[	600	,	650	,	625	],"genre":"	M	","level":	2	},
-{"name":"	emanuel de los santos	","points":[	800	,	800	,	800	],"genre":"	M	","level":	2	},
-{"name":"	ernesto ventura	","points":[	740	,	800	,	770	],"genre":"	M	","level":	2	},
-{"name":"	fermin donerstag	","points":[	920	,	825	,	873	],"genre":"	M	","level":	3	},
-{"name":"	francisco imposti	","points":[	900	,	850	,	875	],"genre":"	M	","level":	2	},
-{"name":"	franco massera	","points":[	600	,	600	,	600	],"genre":"	M	","level":	2	},
-{"name":"	franco ruiz	","points":[	860	,	800	,	830	],"genre":"	M	","level":	3	},
-{"name":"	gonzalo vattino	","points":[	690	,	725	,	708	],"genre":"	M	","level":	2	},
-{"name":"	ian klus	","points":[	790	,	800	,	795	],"genre":"	M	","level":	2	},
-{"name":"	luciano liparoti	","points":[	650	,	750	,	700	],"genre":"	M	","level":	3	},
-{"name":"	lucio bianchi	","points":[	890	,	800	,	845	],"genre":"	M	","level":	3	},
-{"name":"	mateo lemos	","points":[	630	,	775	,	703	],"genre":"	M	","level":	2	},
-{"name":"	santino quiñones	","points":[	600	,	650	,	625	],"genre":"	M	","level":	2	},
-{"name":"	simon galdeano	","points":[	850	,	775	,	813	],"genre":"	M	","level":	2	},
-{"name":"	teo puebla	","points":[	650	,	700	,	675	],"genre":"	M	","level":	2	},
-{"name":"	thiago sanabria	","points":[	600	,	675	,	638	],"genre":"	M	","level":	2	},
-{"name":"	valentino alberti	","points":[	850	,	800	,	825	],"genre":"	M	","level":	3	},
-{"name":"	valentino garcia	","points":[	690	,	700	,	695	],"genre":"	M	","level":	2	},
-{"name":"	vito bancone	","points":[	800	,	775	,	788	],"genre":"	M	","level":	2	},
-{"name":"	benjamin enriquez	","points":[	700	,	700	,	700	],"genre":"	M	","level":	3	},
-{"name":"	dylan toral	","points":[	800	,	750	,	700	],"genre":"	M	","level":	3	},
-{"name":"	ivan ledesma	","points":[	790	,	750	,	700	],"genre":"	M	","level":	3	},
-{"name":"	joaquin lambdaburo	","points":[	800	,	800	,	750	],"genre":"	M	","level":	3	},
-{"name":"	joaquin tarcezydlo	","points":[	810	,	775	,	800	],"genre":"	M	","level":	3	},
-{"name":"	juan cepeda	","points":[	700	,	750	,	700	],"genre":"	M	","level":	3	},
-{"name":"	juan cruz farfor	","points":[	780	,	775	,	700	],"genre":"	M	","level":	3	},
-{"name":"	juan ignacio liva	","points":[	750	,	725	,	750	],"genre":"	M	","level":	3	},
-{"name":"	leon maluf	","points":[	780	,	800	,	800	],"genre":"	M	","level":	3	},
-{"name":"	leonel de lio	","points":[	900	,	850	,	800	],"genre":"	M	","level":	3	},
-{"name":"	tomas vazquez	","points":[	700	,	700	,	700	],"genre":"	M	","level":	3	},
-
-    ]
+	"students":[
+			{
+				"name": "abril leguizamon",
+				"points": 2435,
+				"category": "chicas avanzadas"
+			},
+			{
+				"name": "ainhoa delval",
+				"points": 1865,
+				"category": "chicas iniciales"
+			},
+			{
+				"name": "alejandro acosta",
+				"points": 1650,
+				"category": "adultos iniciales"
+			},
+			{
+				"name": "alexa fuentes",
+				"points": 2025,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "alma casalini",
+				"points": 2100,
+				"category": "chicas avanzadas"
+			},
+			{
+				"name": "almendra ventura",
+				"points": 2050,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "aluhe lago",
+				"points": 2210,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "ambar uchupi",
+				"points": 1750,
+				"category": "chicas iniciales"
+			},
+			{
+				"name": "ana paula correa",
+				"points": 2230,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "andres luca",
+				"points": 2275,
+				"category": "adultos intermedios"
+			},
+			{
+				"name": "angela cassaccio",
+				"points": 2470,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "ariel rodriguez",
+				"points": 2000,
+				"category": "adultos avanzados"
+			},
+			{
+				"name": "ayelen salazar",
+				"points": 2320,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "baltazar engelen",
+				"points": 2715,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "benicio caminos",
+				"points": 2175,
+				"category": "chicos avanzados"
+			},
+			{
+				"name": "benicio ibarra",
+				"points": 2490,
+				"category": "chicos iniciales"
+			},
+			{
+				"name": "benjamin enriquez",
+				"points": 2100,
+				"category": "chicos avanzados"
+			},
+			{
+				"name": "bernardo escrofani",
+				"points": 2648,
+				"category": "chicos iniciales"
+			},
+			{
+				"name": "bianca bianuchi",
+				"points": 2360,
+				"category": "chicas avanzadas"
+			},
+			{
+				"name": "bianca ditono",
+				"points": 2150,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "bruno alvarez",
+				"points": 1950,
+				"category": "chicos iniciales"
+			},
+			{
+				"name": "camila sosa",
+				"points": 2100,
+				"category": "adultos iniciales"
+			},
+			{
+				"name": "carola bogado",
+				"points": 2475,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "catalina casini",
+				"points": 2200,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "catalina fernandez",
+				"points": 1650,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "catalina sosa",
+				"points": 2225,
+				"category": "chicas avanzadas"
+			},
+			{
+				"name": "celeste zabala",
+				"points": 2375,
+				"category": "adultos intermedios"
+			},
+			{
+				"name": "charo lopez",
+				"points": 2230,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "ciro costantini",
+				"points": 1500,
+				"category": "chicos iniciales"
+			},
+			{
+				"name": "ciro dicrose",
+				"points": 2085,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "ciro florentin",
+				"points": 1800,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "cristian lopez",
+				"points": 2625,
+				"category": "adultos avanzados"
+			},
+			{
+				"name": "cristiano trimarco",
+				"points": 2018,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "demian momdjian",
+				"points": 2100,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "diego liva",
+				"points": 1975,
+				"category": "adultos intermedios"
+			},
+			{
+				"name": "diego montrel",
+				"points": 2095,
+				"category": "adultos intermedios"
+			},
+			{
+				"name": "dylan toral",
+				"points": 2250,
+				"category": "chicos avanzados"
+			},
+			{
+				"name": "eduardo blanco",
+				"points": 2175,
+				"category": "adultos avanzados"
+			},
+			{
+				"name": "eduardo cepeda",
+				"points": 2250,
+				"category": "adultos avanzados"
+			},
+			{
+				"name": "elian cassaccio",
+				"points": 1875,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "ema corbellini",
+				"points": 2125,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "emanuel de los santos",
+				"points": 2400,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "emilia aliberti",
+				"points": 2050,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "emilia blanco",
+				"points": 2310,
+				"category": "chicas avanzadas"
+			},
+			{
+				"name": "emilia medina",
+				"points": 1900,
+				"category": "chicas iniciales"
+			},
+			{
+				"name": "emma llanes",
+				"points": 1950,
+				"category": "chicas iniciales"
+			},
+			{
+				"name": "emma palacios",
+				"points": 2140,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "eric kersten",
+				"points": 2300,
+				"category": "adultos iniciales"
+			},
+			{
+				"name": "ernesto ventura",
+				"points": 2310,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "esteban sauco",
+				"points": 2100,
+				"category": "adultos intermedios"
+			},
+			{
+				"name": "felipe villareal",
+				"points": 1725,
+				"category": "chicos iniciales"
+			},
+			{
+				"name": "fermin donerstag",
+				"points": 2618,
+				"category": "chicos avanzados"
+			},
+			{
+				"name": "fiore ghioni",
+				"points": 2130,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "francisco imposti",
+				"points": 2625,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "franco massera",
+				"points": 1800,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "franco morana",
+				"points": 1800,
+				"category": "chicos iniciales"
+			},
+			{
+				"name": "franco ruiz",
+				"points": 2490,
+				"category": "chicos avanzados"
+			},
+			{
+				"name": "gonzalo grillo",
+				"points": 2300,
+				"category": "adultos intermedios"
+			},
+			{
+				"name": "gonzalo vattino",
+				"points": 2123,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "ian klus",
+				"points": 2385,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "ivan ledesma",
+				"points": 2240,
+				"category": "chicos avanzados"
+			},
+			{
+				"name": "jana paredes",
+				"points": 1950,
+				"category": "chicas iniciales"
+			},
+			{
+				"name": "jazmin florido",
+				"points": 2435,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "jeronimo fornasari",
+				"points": 1950,
+				"category": "chicos iniciales"
+			},
+			{
+				"name": "joaquin lambdaburo",
+				"points": 2350,
+				"category": "chicos avanzados"
+			},
+			{
+				"name": "joaquin mourelle",
+				"points": 2575,
+				"category": "adultos avanzados"
+			},
+			{
+				"name": "joaquin tarcezydlo",
+				"points": 2385,
+				"category": "chicos avanzados"
+			},
+			{
+				"name": "juan cepeda",
+				"points": 2150,
+				"category": "chicos avanzados"
+			},
+			{
+				"name": "juan cruz farfor",
+				"points": 2255,
+				"category": "chicos avanzados"
+			},
+			{
+				"name": "juan ignacio bairo",
+				"points": 2325,
+				"category": "adultos intermedios"
+			},
+			{
+				"name": "juan ignacio liva",
+				"points": 2225,
+				"category": "chicos avanzados"
+			},
+			{
+				"name": "juan ludueña",
+				"points": 2480,
+				"category": "adultos avanzados"
+			},
+			{
+				"name": "juancho rueda",
+				"points": 2540,
+				"category": "adultos avanzados"
+			},
+			{
+				"name": "julieta soprano",
+				"points": 1890,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "kiara latorre",
+				"points": 2605,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "lara castro",
+				"points": 2080,
+				"category": "chicas iniciales"
+			},
+			{
+				"name": "leo gimenez",
+				"points": 1950,
+				"category": "adultos intermedios"
+			},
+			{
+				"name": "leon maluf",
+				"points": 2380,
+				"category": "chicos avanzados"
+			},
+			{
+				"name": "leonel de lio",
+				"points": 2550,
+				"category": "chicos avanzados"
+			},
+			{
+				"name": "liz fratianni",
+				"points": 2255,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "lola arizio",
+				"points": 2225,
+				"category": "chicas avanzadas"
+			},
+			{
+				"name": "lola hernandez",
+				"points": 1750,
+				"category": "chicas iniciales"
+			},
+			{
+				"name": "lourdes gonda",
+				"points": 2080,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "luana galvan",
+				"points": 2455,
+				"category": "chicas avanzadas"
+			},
+			{
+				"name": "luca cespedes",
+				"points": 2100,
+				"category": "chicos iniciales"
+			},
+			{
+				"name": "lucia del rincon",
+				"points": 2200,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "lucia olivera",
+				"points": 2405,
+				"category": "adultos intermedios"
+			},
+			{
+				"name": "luciana maza",
+				"points": 1895,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "luciano liparoti",
+				"points": 2100,
+				"category": "chicos avanzados"
+			},
+			{
+				"name": "lucio bianchi",
+				"points": 2535,
+				"category": "chicos avanzados"
+			},
+			{
+				"name": "lujan perez",
+				"points": 1550,
+				"category": "chicas iniciales"
+			},
+			{
+				"name": "luna prieto",
+				"points": 2225,
+				"category": "chicas avanzadas"
+			},
+			{
+				"name": "lupe aristegui",
+				"points": 2150,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "macarena melilli",
+				"points": 2215,
+				"category": "adultos intermedios"
+			},
+			{
+				"name": "malena sanso",
+				"points": 1530,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "manuel alvarez",
+				"points": 1875,
+				"category": "chicos iniciales"
+			},
+			{
+				"name": "manuel cepeda",
+				"points": 1875,
+				"category": "chicos iniciales"
+			},
+			{
+				"name": "mara gonzalez",
+				"points": 2200,
+				"category": "chicas avanzadas"
+			},
+			{
+				"name": "martin iaria",
+				"points": 2350,
+				"category": "adultos avanzados"
+			},
+			{
+				"name": "martina obaid",
+				"points": 2200,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "mateo lemos",
+				"points": 2108,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "matilda ribas",
+				"points": 2050,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "maxi pires",
+				"points": 2245,
+				"category": "chicas iniciales"
+			},
+			{
+				"name": "miranda leiva",
+				"points": 1800,
+				"category": "chicas iniciales"
+			},
+			{
+				"name": "mora garcia vedral",
+				"points": 2205,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "nahiara san martin",
+				"points": 2525,
+				"category": "chicas avanzadas"
+			},
+			{
+				"name": "nina setaño",
+				"points": 2155,
+				"category": "chicas iniciales"
+			},
+			{
+				"name": "noa hernando",
+				"points": 2255,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "noa setaño",
+				"points": 1550,
+				"category": "chicas iniciales"
+			},
+			{
+				"name": "olivia echeverria",
+				"points": 2275,
+				"category": "chicas iniciales"
+			},
+			{
+				"name": "pablo joaquim",
+				"points": 1850,
+				"category": "adultos iniciales"
+			},
+			{
+				"name": "pablo quintero",
+				"points": 2195,
+				"category": "adultos intermedios"
+			},
+			{
+				"name": "paula luca",
+				"points": 2315,
+				"category": "adultos intermedios"
+			},
+			{
+				"name": "pina gosiker",
+				"points": 2125,
+				"category": "chicas iniciales"
+			},
+			{
+				"name": "raul ruiz",
+				"points": 2550,
+				"category": "adultos intermedios"
+			},
+			{
+				"name": "rocio rodriguez",
+				"points": 2355,
+				"category": "chicas avanzadas"
+			},
+			{
+				"name": "rosario flores",
+				"points": 1785,
+				"category": "chicas iniciales"
+			},
+			{
+				"name": "santino quiñones",
+				"points": 1875,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "simon colline",
+				"points": 2633,
+				"category": "chicos iniciales"
+			},
+			{
+				"name": "simon engelen",
+				"points": 2543,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "simon galdeano",
+				"points": 2438,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "simon lopez",
+				"points": 1845,
+				"category": "chicos iniciales"
+			},
+			{
+				"name": "sofia obaid",
+				"points": 2250,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "sofia orsini",
+				"points": 2225,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "sol bertuna",
+				"points": 2335,
+				"category": "chicas avanzadas"
+			},
+			{
+				"name": "teo puebla",
+				"points": 2025,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "thiago sanabria",
+				"points": 1913,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "tomas vazquez",
+				"points": 2100,
+				"category": "chicos avanzados"
+			},
+			{
+				"name": "uma paredes",
+				"points": 2045,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "umaia ibave",
+				"points": 2415,
+				"category": "chicas avanzadas"
+			},
+			{
+				"name": "valentino alberti",
+				"points": 2475,
+				"category": "chicos avanzados"
+			},
+			{
+				"name": "valentino garcia",
+				"points": 2085,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "victoria galdeano",
+				"points": 2230,
+				"category": "chicas intermedias"
+			},
+			{
+				"name": "vito bancone",
+				"points": 2363,
+				"category": "chicos intermedios"
+			},
+			{
+				"name": "viviana szpigiel",
+				"points": 2370,
+				"category": "adultos intermedios"
+			},
+			{
+				"name": "zoe brandam",
+				"points": 1950,
+				"category": "chicas intermedias"
+			}
+		]
 }
