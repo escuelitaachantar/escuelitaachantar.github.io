@@ -17,7 +17,7 @@
 			<h1>A CHANTAR</h1>
 		</div>
 
-		<h2>Puntos 1er Torneo 2023</h2>
+		<h2>Puntos de los Torneos 2023</h2>
 		<div style="margin: auto;max-width: 600px;">
 			<div id="search-bar">
 				<input type="text" v-model="searchTerm" @keyup="search()" @change="search()" name="buscar" id="search-input"
@@ -31,13 +31,22 @@
 			<table v-else>
 				<tr>
 					<th>Nombre</th>
-					<th>Categoria</th>
-					<th>Puntos</th>
+					<th>1ero</th>
+					<th>2do</th>
+					<th>promedio</th>
 				</tr>
 				<tr v-for="student in toShow">
-					<td>{{student.name}}</td>
-					<td style="text-align: center;">{{student.category}}</td>
-					<td style="text-align: center;">{{student.points}}</td>
+					<td>
+						{{student.name}}
+						<br>
+						<span class="category">
+							{{student.category}}
+						</span>
+					</td>
+					<!-- <td style="text-align: center;">{{student.category}}</td> -->
+					<td style="text-align: center;">{{student.points[0] == 0 ? "-" : student.points[0]}}</td>
+					<td style="text-align: center;">{{student.points[1] == 0 ? "-" : student.points[1]}}</td>
+					<td style="text-align: center;">{{prom(student.points)}}</td>
 				</tr>
 				<tr>
 			</table>
@@ -68,6 +77,11 @@
 				}
 			},
 			methods: {
+				prom(points) {
+                    let div = 2
+                    if (points[0] == 0 || points[1] == 0) div-=1
+                    return (points[0]+points[1]) / div
+                },
 				search() {
 					if (this.searchTerm.length == 0) this.results = []
 					if (this.searchTerm.length < 3) return

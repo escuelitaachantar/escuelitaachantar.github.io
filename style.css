@@ -82,6 +82,11 @@ table{
 	border-radius: 12px;
 	font-size: 18px;
 }
+.category{
+	color: #a00000;
+	/* font-weight: bold; */
+	font-size: 15px;
+}
 
 td,
 th {
